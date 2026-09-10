@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+.Python
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Power BI temporary files
+*.pbix.tmp
+~$*
+
+# Note: adidas_cleaned_dataset.csv is committed on purpose. It is the input the
+# PostgreSQL script loads, so keeping it in the repo makes the SQL step
+# runnable without re-running the notebook first.
